@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:padding="10dp">
+
+    <Button
+            android:id="@+id/btnShowToast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="63dp"
+            android:text="Show Toast"/>
+
+    <EditText
+            android:id="@+id/etUserMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="165dp"
+            android:ems="10"
+            android:hint="Enter your Message"/>
+
+    <Button
+            android:id="@+id/btnSendMsgToNextActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Send Data To Next Activity"/>
+    <Button
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/btnShowToast"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/Share"
+            android:layout_marginBottom="152dp"
+            android:layout_marginEnd="29dp"
+            android:layout_width="wrap_content"
+            android:text="Share"/>
+    <Button
+            android:text="Recyclerview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:id="@+id/RecyclerView"
+            android:layout_alignStart="@+id/btnShowToast" android:layout_marginBottom="61dp"/>
+
+</RelativeLayout>
